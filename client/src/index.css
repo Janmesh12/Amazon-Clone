@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-amazon-dark: #131921;
+  --color-amazon-navy: #232f3e;
+  --color-amazon-orange: #ff9900;
+  --color-amazon-orange-hover: #e88b00;
+  --color-amazon-light-orange: #febd69;
+  --color-amazon-blue: #37475a;
+  --color-amazon-link: #007185;
+  --color-amazon-white: #ffffff;
+  --color-amazon-gray-bg: #eaeded;
+  --color-amazon-text: #0f1111;
+  --color-amazon-text-muted: #565959;
+  
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --shadow-amazon-card: 0 2px 8px rgba(0,0,0,0.12);
+  --radius-amazon-card: 8px;
+}
+
+body {
+  @apply bg-amazon-gray-bg text-amazon-text font-sans min-h-screen;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
